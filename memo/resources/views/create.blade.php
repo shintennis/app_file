@@ -11,9 +11,9 @@
             @endforeach
         @endif
         <br>
-        <button type="submit" style="padding: 10 30px;">作成</button>
+        <button class="btn btn-success" type="submit" style="padding: 10 30px;">作成</button>
         <br>
-        <a href="{{ route('index') }}">キャンセル</a>
+        <a class="btn btn-outline-info" href="{{ route('index') }}">キャンセル</a>
     </form>
     
 @endsection
